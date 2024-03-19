@@ -87,3 +87,7 @@
   transform-origin: left;
   z-index: 1;
 }
+
+.gradeint {
+  background: linear-gradient(180deg, rgba(42, 157, 244, 0.8) 0%, rgba(18, 18, 18, 0.8) 100%);
+}

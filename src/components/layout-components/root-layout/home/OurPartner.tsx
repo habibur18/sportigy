@@ -1,23 +1,20 @@
 import Image from "next/image";
-import bpl from "../../../../asset/Home/1bpl.png";
-import bangladesh from "../../../../asset/Home/bangladesh.png";
-import ipl from "../../../../asset/Home/ipl.png";
 
+const logos = [
+  {
+    name: "Bangladesh Premier League",
+    logo: "/assets/Home/1bpl.png",
+  },
+  {
+    name: "Bangladesh",
+    logo: "/assets/Home/bangladesh.png",
+  },
+  {
+    name: "Indian Premier League",
+    logo: "/assets/Home/ipl.png",
+  },
+];
 export default function OurPartner() {
-  const logos = [
-    {
-      name: "Bangladesh Premier League",
-      logo: bpl,
-    },
-    {
-      name: "Bangladesh",
-      logo: bangladesh,
-    },
-    {
-      name: "Indian Premier League",
-      logo: ipl,
-    },
-  ];
   return (
     <section
       style={{
@@ -29,8 +26,10 @@ export default function OurPartner() {
         {Array(6)
           .fill(null)
           .map((_, index) => (
-            <div key={index} className="w-20 h-20 relative">
-              <Image src={logos[index % logos.length].logo} alt={logos[index % logos.length].name} layout="fill" objectFit="contain" />
+            <div key={index} className="relative">
+              <div>
+                <Image src={logos[index % logos.length].logo} alt={logos[index % logos.length].name} width={70} height={70} className="object-contain" />
+              </div>
             </div>
           ))}
       </div>

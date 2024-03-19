@@ -1,13 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
 import Image from "next/image";
-import srilanka from "../../../../asset/Home/srilanka1.png";
 export default function LiveScore() {
-  //
-  // import Image from "next/image";
-  // import srilanka from "../../../../asset/Home/srilanka1.png";
-  // import SlideArrow from "../../../../asset/SliderArrow.svg";
-  //
   return (
     <section className="container max-w-[1442px] mx-auto  tracking-[0.1rem]">
       <div className="flex gap-5 items-center ">
@@ -26,7 +20,7 @@ export default function LiveScore() {
                     <p>25/3 (20)</p>
                   </div>
                   <div className="flex gap-1 items-center text-[25px]">
-                    <Image src={srilanka} width={36} alt="arrow" />
+                    <Image src={"/assets/Home/srilanka1.png"} width={36} height={36} alt="arrow" />
                     <h4>Srilanka:</h4>
                     <p>25/3 (20)</p>
                   </div>
@@ -41,7 +35,7 @@ export default function LiveScore() {
                     <p>25/3 (20)</p>
                   </div>
                   <div className="flex gap-1 items-center text-[25px]">
-                    <Image src={srilanka} alt="arrow" />
+                    <Image src={"/assets/Home/srilanka1.png"} width={36} height={36} alt="arrow" />
                     <h4>Srilanka:</h4>
                     <p>25/3 (20)</p>
                   </div>
@@ -56,7 +50,7 @@ export default function LiveScore() {
                     <p>25/3 (20)</p>
                   </div>
                   <div className="flex gap-1 items-center text-[25px]">
-                    <Image src={srilanka} alt="arrow" />
+                    <Image src={"/assets/Home/srilanka1.png"} width={36} height={36} alt="arrow" />
                     <h4>Srilanka:</h4>
                     <p>25/3 (20)</p>
                   </div>

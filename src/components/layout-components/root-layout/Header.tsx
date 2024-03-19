@@ -3,7 +3,6 @@ import { Lemon } from "next/font/google";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import arrow from "../../../asset/arrow.svg";
 const lemon = Lemon({ weight: "400", subsets: ["latin"] });
 
 const links = [
@@ -58,7 +57,7 @@ export default function Header() {
           {links.map((link) => (
             <li key={link.name}>
               <Link className={` ${active(link.path) ? "text-[#2A9DF4] border-b-2 border-[#2A9DF4]" : "text-[#121212]"} capitalize flex gap-1 font-bold`} href={link.path}>
-                {link.name} {link.children && <Image src={arrow} alt="arrow" />}
+                {link.name} {link.children && <Image width={10} height={10} src={"/assets/arrow.svg"} alt="arrow" />}
               </Link>
             </li>
           ))}
