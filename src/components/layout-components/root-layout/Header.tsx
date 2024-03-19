@@ -49,7 +49,7 @@ export default function Header() {
   console.log(path);
   const active = (linkPath: string) => linkPath === path;
   return (
-    <header className="flex justify-between px-10 py-5 max-w-[1442px] mx-auto">
+    <header className="flex justify-between container py-5 max-w-[1442px] mx-auto">
       <div>
         <h1 className={lemon.className}>Team Ground</h1>
       </div>

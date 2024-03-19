@@ -22,7 +22,9 @@ export default function RootLayout({
       <body className={mulish.className}>
         <Header />
         <main>{children}</main>
-        <Footer />
+        <div className="my-[157px]">
+          <Footer />
+        </div>
       </body>
     </html>
   );
