@@ -12,7 +12,7 @@ const links = [
   },
   {
     name: "About us",
-    path: "/about-us",
+    path: "/about",
   },
   {
     name: "player list",
@@ -47,6 +47,7 @@ export default function Header() {
   const path = usePathname();
   console.log(path);
   const active = (linkPath: string) => linkPath === path;
+  const isAboutPage = path === "/about";
   return (
     <header className="flex justify-between container py-5 max-w-[1442px] mx-auto">
       <div>
@@ -56,7 +57,7 @@ export default function Header() {
         <ul className="flex gap-[40px]">
           {links.map((link) => (
             <li key={link.name}>
-              <Link className={` ${active(link.path) ? "text-[#2A9DF4] border-b-2 border-[#2A9DF4]" : "text-[#121212]"} capitalize flex gap-1 font-bold`} href={link.path}>
+              <Link className={` ${isAboutPage && "border-[#D40030]"} ${active(link.path) ? "text-[#2A9DF4] border-b-2 border-[#2A9DF4]" : "text-[#121212]"} capitalize flex gap-1 font-bold`} href={link.path}>
                 {link.name} {link.children && <Image width={10} height={10} src={"/assets/arrow.svg"} alt="arrow" />}
               </Link>
             </li>

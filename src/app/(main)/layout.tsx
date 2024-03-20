@@ -1,5 +1,5 @@
-import Footer from "@/components/layout-components/root-layout/Footer";
-import Header from "@/components/layout-components/root-layout/Header";
+import Footer from "@/components/layout-components/main/Footer";
+import Header from "@/components/layout-components/main/Header";
 import type { Metadata } from "next";
 import { Lemon, Mulish } from "next/font/google";
 import "../globals.css";
@@ -22,7 +22,7 @@ export default function RootLayout({
       <body className={mulish.className}>
         <Header />
         <main>{children}</main>
-        <div className="my-[157px]">
+        <div className="mt-[157px]">
           <Footer />
         </div>
       </body>

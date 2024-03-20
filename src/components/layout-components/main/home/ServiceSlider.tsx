@@ -23,13 +23,13 @@ export default function ServiceSlider() {
             <CarouselContent>
               <CarouselItem>
                 <Card>
-                  <CardContent style={{ padding: "0px !important" }} className="flex flex-wrap gap-12 items-center text-[25px]">
+                  <CardContent style={{ padding: "0px !important" }} className="flex  gap-12 items-center text-[25px]">
                     <div>
                       <h3 className="text-[28px] font-[1000] text-[#FFFFFF]">Top Viewed Reels</h3>
                       <p className="text-justify tracking-[0.1rem] text-[#FFFFFF]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
                     </div>
                     <div className="">
-                      <iframe width="485.67" height="280.39" src="https://www.youtube.com/embed/v5EF-UxNteg" title="Rishad Hossain&#39;s 48 Runs Against Sri Lanka  | 3rd ODI | Sri Lanka tour of Bangladesh 2024" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                      <iframe width="485.67" height="280.39" src="https://www.youtube.com/embed/v5EF-UxNteg" title="Rishad Hossain&#39;s 48 Runs Against Sri Lanka  | 3rd ODI | Sri Lanka tour of Bangladesh 2024" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                     </div>
                   </CardContent>
                 </Card>
@@ -42,7 +42,7 @@ export default function ServiceSlider() {
                       <p className="text-justify text-[#FFFFFF] tracking-[0.1rem]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
                     </div>
                     <div className="">
-                      <iframe width="485.67" height="280.39" src="https://www.youtube.com/embed/v5EF-UxNteg" title="Rishad Hossain&#39;s 48 Runs Against Sri Lanka  | 3rd ODI | Sri Lanka tour of Bangladesh 2024" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                      <iframe width="485.67" height="280.39" src="https://www.youtube.com/embed/v5EF-UxNteg" title="Rishad Hossain&#39;s 48 Runs Against Sri Lanka  | 3rd ODI | Sri Lanka tour of Bangladesh 2024" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                     </div>
                   </CardContent>
                 </Card>

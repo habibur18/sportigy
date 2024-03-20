@@ -74,20 +74,3 @@
     @apply bg-background text-foreground;
   }
 }
-
-#footer::before {
-  content: "";
-  display: block;
-  width: 100%;
-  background-color: black;
-  transform: skew(0deg, -3deg);
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  transform-origin: left;
-  z-index: 1;
-}
-
-.gradeint {
-  background: linear-gradient(180deg, rgba(42, 157, 244, 0.8) 0%, rgba(18, 18, 18, 0.8) 100%);
-}

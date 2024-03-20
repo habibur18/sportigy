@@ -14,14 +14,14 @@ export default function RegisterSection() {
       className="h-[400px] relative text-center container mx-auto"
     >
       <main className="flex justify-center items-center h-full">
-        <div className="w-full  flex flex-col justify-center items-center">
+        <div className="md:w-[50%]  flex flex-col justify-center items-center">
           <h1 className={` ${mulish.className} tracking-[0.1rem] lg:max-w-[34ch] text-[1.75rem] font-[1000] text-[#FFFFFF]`}>SEEKING PLAYING OPPORTUNITIES HOME OR ABROAD?</h1>
           <Button style={{ background: "linear-gradient(180deg, rgba(42, 157, 244, 0.8) 0%, rgba(18, 18, 18, 0.8) 100%)" }} className=" col-span-10 flex justify-center py-[30px] px-[93px] font-extrabold text-[#FFFFFF] mx-auto mt-[34px]">
             Player Registration
           </Button>
         </div>
-        <div className="w-[5px] mx-auto h-[160px] bg-[#FFFFFF]"></div>
-        <div className="w-full  flex flex-col justify-center items-center">
+        <div className="w-[5px] mx-auto h-[180px] bg-[#FFFFFF]"></div>
+        <div className="md:w-[50%]  flex flex-col justify-center items-center">
           <h1 className={` ${mulish.className} tracking-[0.1rem] lg:max-w-[30ch] text-[1.75rem] font-[1000] text-[#FFFFFF]`}>LOOKING TO RECRUIT LOCAL OR OVERSEAS PLAYERS?</h1>
           <Button style={{ background: "linear-gradient(180deg, rgba(42, 157, 244, 0.8) 0%, rgba(18, 18, 18, 0.8) 100%)" }} className=" col-span-10 flex justify-center py-[30px] px-[93px] font-extrabold text-[#FFFFFF] mx-auto  mt-[34px]">
             Club Registration

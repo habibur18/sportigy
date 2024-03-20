@@ -44,8 +44,8 @@ export function FeaturesPlayer() {
       <div className="text-center">
         <h1 className="font-[900] text-4xl text-[#121212] mb-[50px] tracking-[0.1rem]">FEATURED PLAYERS</h1>
       </div>
-      <main className="relative flex justify-center border border-red-500">
-        <Carousel className="w-full border border-sky-400">
+      <main className="relative flex justify-center">
+        <Carousel className="w-full">
           <CarouselContent className="cursor-pointer">
             {players.map((player) => (
               <CarouselItem key={player.id} className="md:basis-1/2 lg:basis-1/4">
