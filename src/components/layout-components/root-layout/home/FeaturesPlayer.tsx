@@ -1,4 +1,3 @@
-import { Card, CardContent } from "@/components/ui/card";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
 import Image from "next/image";
 
@@ -51,11 +50,11 @@ export function FeaturesPlayer() {
             {players.map((player) => (
               <CarouselItem key={player.id} className="md:basis-1/2 lg:basis-1/4">
                 <div className="">
-                  <Card>
+                  {/* <Card>
                     <CardContent>
                       <div className="relative ">
                         <figure>
-                          <Image src={player.image} width={341} height={404} alt="feature player" />
+                          <Image src={player.image} className="w-full" width={700} height={404} alt="feature player" />
                         </figure>
                         <div className=" text-center text-[#FFFFFF] text-[1.25rem]  absolute bottom-0 left-0 right-0">
                           <p style={{ background: "linear-gradient(180deg, rgba(42, 157, 244, 0.8) 0%, rgba(18, 18, 18, 0.8) 100%)" }} className="gradient px-[43px] py-[22px]">
@@ -64,7 +63,17 @@ export function FeaturesPlayer() {
                         </div>
                       </div>
                     </CardContent>
-                  </Card>
+                  </Card> */}
+                  <div className="relative ">
+                    <figure>
+                      <Image src={player.image} className="w-full" width={700} height={404} alt="feature player" />
+                    </figure>
+                    <div className=" text-center text-[#FFFFFF] text-[1.25rem]  absolute bottom-0 left-0 right-0">
+                      <p style={{ background: "linear-gradient(180deg, rgba(42, 157, 244, 0.8) 0%, rgba(18, 18, 18, 0.8) 100%)" }} className="gradient px-[43px] py-[22px]">
+                        View {player.name}&apos;s Full Profile
+                      </p>
+                    </div>
+                  </div>
                 </div>
               </CarouselItem>
             ))}

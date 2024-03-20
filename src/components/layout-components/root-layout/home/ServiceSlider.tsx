@@ -13,9 +13,9 @@ export default function ServiceSlider() {
           backgroundPosition: "center",
           position: "relative",
         }}
-        className="h-[400px] relative"
+        className="min-h-[400px] flex justify-center items-center relative"
       >
-        <article className="overflow-visible flex justify-center items-center h-full">
+        <article className="overflow-visible container mx-auto flex justify-center items-center  h-full">
           <Carousel className=" max-w-[1200px] mx-auto">
             <div className="absolute -bottom-[110px] left-[40%] ">
               <CarouselPrevious className="w-[83px]" />
@@ -23,7 +23,7 @@ export default function ServiceSlider() {
             <CarouselContent>
               <CarouselItem>
                 <Card>
-                  <CardContent style={{ padding: "0px !important" }} className="flex  gap-12 items-center text-[25px]">
+                  <CardContent style={{ padding: "0px !important" }} className="flex flex-wrap gap-12 items-center text-[25px]">
                     <div>
                       <h3 className="text-[28px] font-[1000] text-[#FFFFFF]">Top Viewed Reels</h3>
                       <p className="text-justify tracking-[0.1rem] text-[#FFFFFF]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>

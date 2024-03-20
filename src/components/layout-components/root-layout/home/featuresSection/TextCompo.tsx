@@ -2,7 +2,7 @@ export default function TextCompo() {
   return (
     <div>
       <div
-        className="w-[45%] grow-0
+        className="
         "
       >
         <h3 className="text-[2rem] text-[#2A9DF4]">FIND LOCAL PLAYERS</h3>
