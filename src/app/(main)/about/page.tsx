@@ -1,5 +1,5 @@
-import AboutUsIntro from "@/components/layout-components/main/about/AboutUsIntro";
-import OurCoreValue from "@/components/layout-components/main/about/OurCoreValue";
+import AboutUsIntro from "@/components/layout-components/main/pages/about/AboutUsIntro";
+import OurCoreValue from "@/components/layout-components/main/pages/about/OurCoreValue";
 import Image from "next/image";
 
 export default function About() {
