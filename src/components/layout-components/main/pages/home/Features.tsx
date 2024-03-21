@@ -6,7 +6,7 @@ export default function Features() {
   return (
     <section className="container mx-auto my-10">
       <main>
-        <div className="container  mx-auto w-full h-full">
+        <div className="">
           <div className="relative  p-10 h-full">
             <div className="w-[5px] bg-[#2A9DF4] absolute  h-full  left-[50%]">
               <div className="w-full h-full  relative">
@@ -15,7 +15,7 @@ export default function Features() {
               </div>
             </div>
             {/* 1 */}
-            <div className="mt-12 mb-[178px] flex justify-between items-center w-full right-timeline">
+            <div className="mt-12 mb-[128px] flex justify-between items-center w-full right-timeline">
               <div className="order-1 w-5/12 ">
                 <PlayerImage />
               </div>
@@ -29,7 +29,7 @@ export default function Features() {
               </div>
             </div>
             {/* 2 */}
-            <div className=" mb-[148px] flex justify-between flex-row-reverse items-center w-full left-timeline">
+            <div className=" mb-[128px] flex justify-between flex-row-reverse items-center w-full left-timeline">
               <div className="order-1 w-5/12">
                 {" "}
                 <PlayerImage />
@@ -44,7 +44,7 @@ export default function Features() {
               </div>
             </div>
             {/* 3 */}
-            <div className="mb-[148px] flex justify-between items-center w-full right-timeline">
+            <div className="mb-[128px] flex justify-between items-center w-full right-timeline">
               <div className="order-1 w-5/12 ">
                 <PlayerImage />
               </div>
@@ -58,7 +58,7 @@ export default function Features() {
               </div>
             </div>
             {/* 4 */}
-            <div className="mb-[158px] flex justify-between flex-row-reverse items-center w-full left-timeline">
+            <div className="mb-[128px] flex justify-between flex-row-reverse items-center w-full left-timeline">
               <div className="order-1 w-5/12">
                 {" "}
                 <PlayerImage />
