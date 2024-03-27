@@ -28,7 +28,7 @@ export default function About() {
           </p>
         </div>
         <div>
-          <Image src="/assets/About/leftrun.png" width={206} height={225} alt="image" />
+          <Image src="/assets/about/leftrun.png" width={206} height={225} alt="image" />
         </div>
       </div>
     </div>
