@@ -148,7 +148,7 @@ const CarouselPrevious = React.forwardRef<HTMLButtonElement, React.ComponentProp
   return (
     <Button ref={ref} variant={variant} size={size} className={cn("absolute  ", orientation === "horizontal" ? " border-0 -left-12 top-1/2 -translate-y-1/2" : "-top-12 left-1/2 -translate-x-1/2 border-0", className)} disabled={!canScrollPrev} onClick={scrollPrev} {...props}>
       {/* <ArrowLeft className="h-4 w-4" /> */}
-      <Image width={81} height={20} src={"/assets/SliderArrow.svg"} alt="arrow" className="rotate-180 left-arrow" />
+      <Image width={81} height={20} src={"/assets/sliderArrow.svg"} alt="arrow" className="rotate-180 left-arrow" />
       <span className="sr-only">Previous slide</span>
     </Button>
   );
@@ -160,7 +160,7 @@ const CarouselNext = React.forwardRef<HTMLButtonElement, React.ComponentProps<ty
 
   return (
     <Button ref={ref} variant={variant} size={size} className={cn("absolute", orientation === "horizontal" ? " -right-12 top-1/2 -translate-y-1/2 border-0" : "border-0 -bottom-12 left-1/2 -translate-x-1/2 rotate-90", className)} disabled={!canScrollNext} onClick={scrollNext} {...props}>
-      <Image src={"/assets/SliderArrow.svg"} width={81} height={20} alt="arrow" className=" right-arrow" />
+      <Image src={"/assets/sliderArrow.svg"} width={81} height={20} alt="arrow" className=" right-arrow" />
       <span className="sr-only">Next slide</span>
     </Button>
   );
