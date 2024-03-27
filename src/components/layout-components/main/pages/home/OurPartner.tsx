@@ -3,15 +3,15 @@ import Image from "next/image";
 const logos = [
   {
     name: "Bangladesh Premier League",
-    logo: "/assets/Home/1bpl.png",
+    logo: "/assets/home/1bpl.png",
   },
   {
     name: "Bangladesh",
-    logo: "/assets/Home/bangladesh.png",
+    logo: "/assets/home/bangladesh.png",
   },
   {
     name: "Indian Premier League",
-    logo: "/assets/Home/ipl.png",
+    logo: "/assets/home/ipl.png",
   },
 ];
 export default function OurPartner() {

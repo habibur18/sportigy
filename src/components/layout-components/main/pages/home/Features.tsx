@@ -21,7 +21,7 @@ export default function Features() {
               </div>
               <div className="z-20 flex items-center order-1 bg-[#2A9DF4] ml-1 shadow-xl w-[50px] h-[50px] rounded-full">
                 <h1 className="mx-auto font-semibold text-lg text-white">
-                  <Image width={28} height={28} src={"/assets/Home/searchicon.png"} alt="searchicon" />
+                  <Image width={28} height={28} src={"/assets/home/searchicon.png"} alt="searchicon" />
                 </h1>
               </div>
               <div className="order-1  rounded-lg w-5/12  py-4 ">
@@ -36,7 +36,7 @@ export default function Features() {
               </div>
               <div className="z-20 flex items-center order-1 bg-[#2A9DF4] ml-1 shadow-xl w-[50px] h-[50px] rounded-full">
                 <h1 className="mx-auto font-semibold text-lg text-white">
-                  <Image width={28} height={28} src={"/assets/Home/threebar.png"} alt="searchicon" />
+                  <Image width={28} height={28} src={"/assets/home/threebar.png"} alt="searchicon" />
                 </h1>
               </div>
               <div className="order-1  rounded-lg  w-5/12 py-4">
@@ -50,7 +50,7 @@ export default function Features() {
               </div>
               <div className="z-20 flex items-center order-1 bg-[#2A9DF4] ml-1 shadow-xl w-[50px] h-[50px] rounded-full">
                 <h1 className="mx-auto font-semibold text-lg text-white">
-                  <Image width={28} height={28} src={"/assets/Home/flower.png"} alt="searchicon" />
+                  <Image width={28} height={28} src={"/assets/home/flower.png"} alt="searchicon" />
                 </h1>
               </div>
               <div className="order-1  rounded-lg w-5/12  py-4 ">
@@ -65,7 +65,7 @@ export default function Features() {
               </div>
               <div className="z-20 flex items-center order-1 bg-[#2A9DF4] ml-1 shadow-xl w-[50px] h-[50px] rounded-full">
                 <h1 className="mx-auto font-semibold text-lg text-white">
-                  <Image width={28} height={28} src={"/assets/Home/star.png"} alt="searchicon" />
+                  <Image width={28} height={28} src={"/assets/home/star.png"} alt="searchicon" />
                 </h1>
               </div>
               <div className="order-1  rounded-lg  w-5/12 py-4">
@@ -83,7 +83,7 @@ SPORTS NETWORK"
               </div>
               <div className="z-20 flex items-center order-1 bg-[#2A9DF4] ml-1 shadow-xl w-[50px] h-[50px] rounded-full">
                 <h1 className="mx-auto font-semibold text-lg text-white">
-                  <Image width={28} height={28} src={"/assets/Home/star1.png"} alt="searchicon" />
+                  <Image width={28} height={28} src={"/assets/home/star1.png"} alt="searchicon" />
                 </h1>
               </div>
               <div className="order-1  rounded-lg w-5/12  py-4 ">

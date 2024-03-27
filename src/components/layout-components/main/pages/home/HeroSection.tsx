@@ -6,7 +6,7 @@ export default function HeroSection() {
   return (
     <section
       style={{
-        backgroundImage: `linear-gradient(180.00deg, rgba(0, 0, 0, 0.6), rgba(42, 157, 244, 0.6)), url('/assets/Home/batball.png')`,
+        backgroundImage: `linear-gradient(180.00deg, rgba(0, 0, 0, 0.6), rgba(42, 157, 244, 0.6)), url('/assets/home/batball.png')`,
         backgroundSize: "100% 120%",
       }}
       className="py-[85px] flex justify-center items-center text-center"

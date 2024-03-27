@@ -5,37 +5,37 @@ const players = [
   {
     id: 1,
     name: "Asif",
-    image: "/assets/Home/player/asif.png",
+    image: "/assets/home/player/asif.png",
   },
   {
     id: 2,
     name: "Ryans",
-    image: "/assets/Home/player/ryans.png",
+    image: "/assets/home/player/ryans.png",
   },
   {
     id: 3,
     name: "Tamim",
-    image: "/assets/Home/player/tamim.png",
+    image: "/assets/home/player/tamim.png",
   },
   {
     id: 4,
     name: "Sakib",
-    image: "/assets/Home/player/sakib.png",
+    image: "/assets/home/player/sakib.png",
   },
   {
     id: 5,
     name: "Testing 1",
-    image: "/assets/Home/player/sakib.png",
+    image: "/assets/home/player/sakib.png",
   },
   {
     id: 6,
     name: "Testing 2",
-    image: "/assets/Home/player/sakib.png",
+    image: "/assets/home/player/sakib.png",
   },
   {
     id: 7,
     name: "Testing 3",
-    image: "/assets/Home/player/sakib.png",
+    image: "/assets/home/player/sakib.png",
   },
 ];
 export function FeaturesPlayer() {

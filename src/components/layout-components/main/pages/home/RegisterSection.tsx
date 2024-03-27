@@ -6,7 +6,7 @@ export default function RegisterSection() {
   return (
     <section
       style={{
-        backgroundImage: `linear-gradient(180deg, rgba(0, 0, 0, 0.8), rgba(42, 157, 244, 0.8)), url('/assets/Home/service-slider-bg.png')`,
+        backgroundImage: `linear-gradient(180deg, rgba(0, 0, 0, 0.8), rgba(42, 157, 244, 0.8)), url('/assets/home/service-slider-bg.png')`,
         backgroundSize: "cover",
         backgroundPosition: "center",
         position: "relative",

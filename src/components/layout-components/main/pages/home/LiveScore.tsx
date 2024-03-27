@@ -9,7 +9,7 @@ export default function LiveScore() {
 
         <Carousel className=" max-w-[800px] mx-auto flex items-center justify-center">
           <div>
-            <CarouselPrevious />
+            <CarouselPrevious className="w-[83px]" />
           </div>
           <CarouselContent>
             <CarouselItem>
@@ -20,7 +20,7 @@ export default function LiveScore() {
                     <p>25/3 (20)</p>
                   </div>
                   <div className="flex gap-1 items-center text-[25px]">
-                    <Image src={"/assets/Home/srilanka1.png"} width={36} height={36} alt="arrow" />
+                    <Image src={"/assets/home/srilanka1.png"} width={36} height={36} alt="arrow" />
                     <h4>Srilanka:</h4>
                     <p>25/3 (20)</p>
                   </div>
@@ -35,7 +35,7 @@ export default function LiveScore() {
                     <p>25/3 (20)</p>
                   </div>
                   <div className="flex gap-1 items-center text-[25px]">
-                    <Image src={"/assets/Home/srilanka1.png"} width={36} height={36} alt="arrow" />
+                    <Image src={"/assets/home/srilanka1.png"} width={36} height={36} alt="arrow" />
                     <h4>Srilanka:</h4>
                     <p>25/3 (20)</p>
                   </div>
@@ -50,7 +50,7 @@ export default function LiveScore() {
                     <p>25/3 (20)</p>
                   </div>
                   <div className="flex gap-1 items-center text-[25px]">
-                    <Image src={"/assets/Home/srilanka1.png"} width={36} height={36} alt="arrow" />
+                    <Image src={"/assets/home/srilanka1.png"} width={36} height={36} alt="arrow" />
                     <h4>Srilanka:</h4>
                     <p>25/3 (20)</p>
                   </div>
@@ -59,7 +59,7 @@ export default function LiveScore() {
             </CarouselItem>
           </CarouselContent>
           <div>
-            <CarouselNext />
+            <CarouselNext className="w-[83px]" />
           </div>
         </Carousel>
       </div>

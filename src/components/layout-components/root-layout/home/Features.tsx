@@ -18,7 +18,7 @@ export default function Features() {
                 <div className="">
                   <figure className="relative">
                     <div className="">
-                      <Image className="w-full h-full lg:max-w-[444px]" width={444} height={226} src={"/assets/Home/2player.png"} alt="cricket" />
+                      <Image className="w-full h-full lg:max-w-[444px]" width={444} height={226} src={"/assets/home/2player.png"} alt="cricket" />
                     </div>
                   </figure>
                 </div>
@@ -42,7 +42,7 @@ export default function Features() {
                 <div className="">
                   <figure className="relative">
                     <div className="">
-                      <Image width={444} height={226} className="w-full h-full lg:max-w-[444px]" src={"/assets/Home/2player.png"} alt="cricket" />
+                      <Image width={444} height={226} className="w-full h-full lg:max-w-[444px]" src={"/assets/home/2player.png"} alt="cricket" />
                     </div>
                   </figure>
                 </div>

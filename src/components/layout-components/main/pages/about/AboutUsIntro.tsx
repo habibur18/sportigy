@@ -11,7 +11,7 @@ export default function AboutUsIntro() {
         </div>
       </div>
       <div className="md:w-1/2">
-        <Image src="/assets/About/about-us-hero.png" alt="about-us" width={548} height={498} />
+        <Image src="/assets/about/about-us-hero.png" alt="about-us" width={548} height={498} />
       </div>
     </section>
   );

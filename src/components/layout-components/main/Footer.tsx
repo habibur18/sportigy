@@ -10,14 +10,14 @@ export default function Footer() {
         <div className="container mx-auto">
           <main className="flex gap-10 justify-between">
             <div className="self-center flex flex-col items-center">
-              <Image className="mb-5" width={40} height={40} quality={100} src={"/assets/Home/bar.svg"} alt="bar" />
-              <Image width={62} height={20} quality={100} src={"/assets/Home/SiteLogo.png"} alt="logo"></Image>
+              <Image className="mb-5" width={40} height={40} quality={100} src={"/assets/home/bar.svg"} alt="bar" />
+              <Image width={62} height={20} quality={100} src={"/assets/home/SiteLogo.png"} alt="logo"></Image>
             </div>
             <div>
               <h3 className="text-[18px] font-bold mb-[16px]">Contact Us</h3>
               <div className="flex gap-[13px]">
                 <div>
-                  <Image width={24} height={24} quality={100} src={"/assets/Home/location.png"} className="object-contain" alt="bar" />
+                  <Image width={24} height={24} quality={100} src={"/assets/home/location.png"} className="object-contain" alt="bar" />
                 </div>
                 <p>
                   Wisconsin Ave, Suite 700 <br />
@@ -26,7 +26,7 @@ export default function Footer() {
               </div>
               <div className="flex gap-[13px] mt-[19px]">
                 <div>
-                  <Image width={24} height={24} quality={100} src={"/assets/Home/email.png"} className="object-contain" alt="bar" />
+                  <Image width={24} height={24} quality={100} src={"/assets/home/email.png"} className="object-contain" alt="bar" />
                 </div>
                 <p>support@figma.com</p>
               </div>
@@ -60,10 +60,10 @@ export default function Footer() {
               <div className="mt-8">
                 <h3 className="mb-4">Follow us</h3>
                 <div className="flex gap-4">
-                  <Image width={24} height={24} src={"/assets/Home/facebook.png"} className="object-contain" alt="bar" />
-                  <Image width={24} height={24} src={"/assets/Home/telegram.png"} className="object-contain" alt="bar" />
-                  <Image width={24} height={24} src={"/assets/Home/instagram.png"} className="object-contain" alt="bar" />
-                  <Image width={24} height={24} src={"/assets/Home/figma.png"} className="object-contain" alt="bar" />
+                  <Image width={24} height={24} src={"/assets/home/facebook.png"} className="object-contain" alt="bar" />
+                  <Image width={24} height={24} src={"/assets/home/telegram.png"} className="object-contain" alt="bar" />
+                  <Image width={24} height={24} src={"/assets/home/instagram.png"} className="object-contain" alt="bar" />
+                  <Image width={24} height={24} src={"/assets/home/figma.png"} className="object-contain" alt="bar" />
                 </div>
               </div>
             </div>
